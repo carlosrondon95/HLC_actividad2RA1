@@ -1,9 +1,8 @@
-# Actividad RA1 JavaScript (Parte 2) - Venta de Entradas
+# Actividad 2 RA1 JavaScript - Venta de Entradas
 
 ## Descripción
 
-Este proyecto implementa un sistema interactivo para la venta de entradas utilizando JavaScript y una página HTML básica.  
-Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad deseada, calcular el costo total y confirmar la compra.
+Este proyecto implementa un sistema interactivo para la venta de entradas utilizando JavaScript y una página HTML básica. Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad deseada, calcular el costo total y confirmar o cancelar la compra.
 
 ### Funcionalidades principales:
 1. Validación del tipo de entrada seleccionada (general, VIP, infantil).
@@ -14,7 +13,7 @@ Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad d
 
 ## Archivos incluidos
 
-- **actividadRA1-2_entradas.js**: Archivo con el código principal en JavaScript.
+- **actividadRA1_entradas.js**: Archivo con el código principal en JavaScript.
 - **index.html**: Archivo HTML que sirve como punto de entrada para ejecutar el script.
 
 ## Requisitos
@@ -24,7 +23,7 @@ Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad d
 ## Instrucciones de Ejecución
 
 1. **Descarga los archivos**  
-   Asegúrate de tener los archivos `actividadRA1-2_entradas.js` y `index.html` en el mismo directorio.
+   Asegúrate de tener los archivos `actividadRA1_entradas.js` y `index.html` en el mismo directorio.
 
 2. **Abrir el archivo HTML**  
    - Haz doble clic en el archivo `index.html` para abrirlo en tu navegador web.
@@ -34,10 +33,7 @@ Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad d
      1. Ingresa la categoría de entrada: "general", "vip" o "infantil".
      2. Ingresa la cantidad de entradas (un número mayor que cero).
      3. Confirma o cancela la compra al ver el costo total.
-   - Si confirmas, las entradas se imprimirán en la consola.
-
-4. **Revisar la consola del navegador**  
-   - Abre la consola del navegador para ver los mensajes de confirmación (en la mayoría de los navegadores, presiona `F12` y selecciona la pestaña "Console").
+   - Si confirmas, las entradas se imprimirán.
 
 ## Estructura del Código
 
@@ -47,10 +43,10 @@ Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad d
   - `obtenerNumEntradas()`: Solicita y valida el número de entradas.
 - **Lógica principal**:
   - Valida las entradas y calcula el costo total.
-  - Muestra un mensaje de confirmación y gestiona la impresión de entradas en la consola.
+  - Muestra un mensaje de confirmación y gestiona la impresión de entradas.
 
 ### HTML
-- Contiene una referencia al script JavaScript (`actividadRA1-2_entradas.js`) que se ejecuta automáticamente al cargar la página.
+- Contiene una referencia al script JavaScript (`actividadRA1_entradas.js`) que se ejecuta automáticamente al cargar la página.
 
 ## Notas adicionales
 
@@ -62,4 +58,4 @@ Permite al usuario seleccionar una categoría de entrada, ingresar la cantidad d
   - Este código no depende de herramientas externas como Node.js, ya que está diseñado para ejecutarse directamente desde un navegador.
 
 --- 
-*Desarrollado por Carlos Rondón Pérez, RA1 - Actividad 2: Fundamentos de JavaScript.*
+*Desarrollado por Carlos Rondón Pérez.*
